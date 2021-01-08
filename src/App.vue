@@ -10,7 +10,8 @@
     <h1 class="title" :class="{ active: isUnlock }">{{ warning }}</h1>
   </div>
   <div v-if="isUnlock" class="content">
-    <h1>看下面更多的內容</h1>
+    <h2>關於我</h2>
+    <p>吃葡萄不吐葡萄皮</p>
   </div>
 
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
