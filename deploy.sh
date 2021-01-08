@@ -10,5 +10,5 @@ git add -A
 git commit -m 'deploy'
 # 部署到 git@github.com:wowdacom/my-site-2021.git 分支為 gh-pages
 git push -f git@github.com:wowdacom/my-site-2021.git main:gh-pages
-//將dist資料夾中的內容推送至遠端eric-project的gh-pages分支中，並強制無條件將舊有的內容取代成目前的內容（指令 git push -f)
+#將dist資料夾中的內容推送至遠端eric-project的gh-pages分支中，並強制無條件將舊有的內容取代成目前的內容（指令 git push -f)
 cd -
